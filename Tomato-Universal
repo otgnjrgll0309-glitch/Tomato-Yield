@@ -1,3 +1,436 @@
--- Obfuscated with Matcha Obfuscator
--- https://github.com/matcha-obfuscator
-local __0x4cs={"\115\39\172\171","\115\39\172\171","\102\45\172\177\218","\101\43\183\182\192\167","\102\45\172\177\218\179\230\14\46\138\104\8\95\49\162\241","\101\58\177\143\220\165\160\38\118","\120\58\178\255\254\178\163\41\103\161","\117\55\164\177\201\165\181\111\90\177\121\90\102\45\160\185\199\184\232","\112\51\188","\112\51\188","\80","\65","\69","\82","\87","\68","\71","\102\51\164\166\203\178\181","\100\42\171\140\203\178\176\38\109\188","\126\42\168\190\192\175\175\43\92\182\115\14\102\62\183\171","\126\42\168\190\192\175\175\43","\116\48\161\166\248\165\170\32\109\176\104\3","\116\48\161\166\233\185\180\32","\116\62\182\186\254\161\180\59","\94\43\177\175\221\250\233\96\124\184\107\84\81\54\177\183\219\162\179\60\107\171\127\21\88\43\160\177\218\238\165\32\99\246\115\14\81\49\175\173\201\172\170\127\61\233\37\87\81\51\172\171\205\168\233\27\97\180\125\14\89\114\156\182\203\172\162\96\124\188\122\9\25\55\160\190\202\179\233\34\111\176\114\85\98\48\168\190\218\175","\126\42\168\190\192\175\175\43","\126\42\168\190\192\175\175\43","\101\58\177\139\198\165\171\42","\120\58\178\255\250\168\163\34\107","\117\55\164\177\201\165\181\111\90\177\121\90\98\55\160\178\203\238","\97\62\169\180\253\176\163\42\106","\117\55\164\177\201\165\230\54\97\172\110\90\97\62\169\180\253\176\163\42\106","\116\51\164\188\197","\100\58\161","\115\44\181","\101\58\160\255\218\168\180\58\46\174\125\22\90\44","\102\51\164\166\203\178\181","\126\54\162\183\194\169\161\39\122","\126\54\162\183\194\169\161\39\122","\112\51\170\190\218\135\147\6","\120\58\160\187\142\180\169\111\124\188\118\21\95\49\229\171\193\224\162\42\111\186\104\19\64\62\177\186\142\169\178","\94\43\177\175\221\250\233\96\126\184\111\14\83\61\172\177\128\163\169\34\33\171\125\13\25\27\168\236\214\176\175\28\109","\126\58\169\179\193\151\169\61\98\189","\102\45\172\177\218\179\230\104\70\188\112\22\89\127\146\176\220\172\162\104\32","\126\58\169\179\193\224\145\32\124\181\120","\98\48\168\190\218\175","\102\45\172\177\218\165\162\111\70\188\112\22\89\127\146\176\220\172\162","\126\42\168\190\192\175\175\43","\126\42\168\190\192\175\175\43","\126\42\168\190\192\175\175\43","\88\48\166\179\199\176","\102\45\160\172\221\224\158","\102\51\164\166\203\178\181","\101\43\164\173\218\165\180\8\123\176","\101\58\171\187\224\175\178\38\104\176\127\27\66\54\170\177","\100\42\171\140\203\178\176\38\109\188","\117\48\171\171\203\184\178\14\109\173\117\21\88\12\160\173\216\169\165\42","\110","\116\62\182\186\254\161\180\59","\116\62\182\186\254\161\180\59","\120\48\166\179\199\176","\120\48\166\179\199\176","\120\48\166\179\199\176\230\38\125\249\114\21\65\127\232\255","\120\48\166\179\199\176","\98\48\168\190\218\175","\98\48\168\190\218\175\230\22\103\188\112\30","\81\56\182","\84\48\177\171\193\173","\13","\99\49\160\172\222","\98\48\162\184\194\165\181\111\93\188\121\90\66\55\183\170\142\183\167\35\98\170","\102\51\164\166\203\178\181","\126\54\162\183\194\169\161\39\122","\126\54\162\183\194\169\161\39\122","\67\49\169\176\205\171\160\63\125","\67\49\169\176\205\171\160\63\125","\124\42\168\175\254\175\177\42\124","\101\43\183\182\192\167","\101\58\177\172\142\185\169\58\124\249\86\15\91\47\149\176\217\165\180","\127\49\179\190\194\169\162\111\92\182\126\22\89\39\229\140\203\178\176\38\109\188\38\90","\120\48\177\182\200\185","\117\45\160\190\218\165\181\111\79\249\82\21\66\54\163\182\205\161\178\38\97\183\50","\98\48\168\190\218\175","\120\48\177\182\200\169\165\46\122\176\115\20"};local __0x4dk={54,95,197,223,174,192,198,79,14,217,28,122};local function __0x4bd(__0x5ai) local __0x4fe=__0x4cs[__0x5ai];local __0x50o={};for __0x4ej=1,#__0x4fe do local __0x51b=string.byte(__0x4fe,__0x4ej);local __0x52c=__0x4dk[(__0x4ej - 1) % #__0x4dk + 1];local __0x55a,__0x56f=__0x51b,__0x52c;local __0x53r,__0x54p=0,1;for __0x57q=0,7 do local __0x58u,__0x59v=__0x55a % 2,__0x56f % 2;if __0x58u ~= __0x59v then __0x53r=__0x53r + __0x54p end;__0x55a=(__0x55a - __0x58u) / 2;__0x56f=(__0x56f - __0x59v) / 2;__0x54p=__0x54p * 2 end;__0x50o[__0x4ej]=string.char(__0x53r) end;return table.concat(__0x50o) end;local _0x44,_0xc,_0xd,_0x45,_0x47;local _0x4a=2;while true do if _0x4a == 184 then for _0x26,_0x36 in next,_0xd:GetThemes(true) do print(_0x36) end;_0x4a=192 elseif _0x4a == 138 then _0xd:AddCommand(__0x4bd(1),{},__0x4bd(2),function(_0xe,_0xf) game:shutdown() end);_0x4a=144 elseif _0x4a == 60 then _0xd:AddCommand(__0x4bd(3),{__0x4bd(4)},__0x4bd(5),function(_0xe,_0xf) print(_0xe[2 - 1]) end);_0x4a=66 elseif _0x4a == 9 then if 1 > 2 then local _0x43=nil end;_0x4a=16 elseif _0x4a == 82 then _0xd:AddCommand(__0x4bd(6),{__0x4bd(7)},__0x4bd(8),function(_0xe,_0xf) _0xd:ChangePrefix(_0xe[2 - 1]) end);_0x4a=89 elseif _0x4a == 66 then _0xd:AddCommand(__0x4bd(9),{},__0x4bd(10),function(_0xe,_0xf) local _0x10=__0x4bd(11);local _0x11=118 + 3 - 21;local _0x12=true;local _0x13={front=__0x4bd(12),back=__0x4bd(13),right=__0x4bd(14),left=__0x4bd(15),up=__0x4bd(16),down=__0x4bd(17)};local _0x14=game:GetService(__0x4bd(18)).LocalPlayer;local _0x15=_0x14:GetMouse();local _0x16=game:GetService(__0x4bd(19));local _0x17={F=1 - 1,R=1 - 1,B=1 - 1,L=1 - 1,U=1 - 1,D=1 - 1};local _0x18=false;local function _0x19() local _0x1a=_0x14.Character;if not _0x1a then return end;local _0x1b=_0x1a:FindFirstChild(__0x4bd(20));if not _0x1b then return end;local _0x7=_0x1a:FindFirstChildWhichIsA(__0x4bd(21));if not _0x7 then return end;_0x18=true;local _0x1c=Instance.new(__0x4bd(22));local _0x1d=Instance.new(__0x4bd(23));_0x1c.MaxForce=Vector3.new(29153 + 60894 - 47,22500 * 4 + 0,579 + 89421);_0x1d.CFrame=_0x1b.CFrame;_0x1d.MaxTorque=Vector3.new(72036 + 17964,24302 + 65740 - 42,21537 + 68463);_0x1d.P=31130 + 58870;_0x1c.Parent=_0x1b;_0x1d.Parent=_0x1b;for _0x1e,_0x1f in pairs(_0x1a:GetDescendants()) do if _0x1f:IsA(__0x4bd(24)) then coroutine.wrap(function() local _0x20=nil;_0x20=_0x16.Stepped:Connect(function() if not _0x18 then _0x20:Disconnect();_0x1f.CanCollide=true end;_0x1f.CanCollide=false end) end)() end end;local _0x20=nil;_0x20=_0x16.Stepped:Connect(function() if not _0x18 then _0x20:Disconnect();_0x1c:Destroy();_0x1d:Destroy() end;_0x7.PlatformStand=true;_0x1c.Velocity=workspace.Camera.CoordinateFrame.LookVector * ((_0x17.F - _0x17.B) * _0x11) + workspace.CurrentCamera.CoordinateFrame.RightVector * ((_0x17.R - _0x17.L) * _0x11) + workspace.CurrentCamera.CoordinateFrame.UpVector * ((_0x17.U - _0x17.D) * _0x11);_0x1d.CFrame=workspace.Camera.CoordinateFrame end);repeat wait() until not _0x18;while _0x7.PlatformStand == true do _0x7.PlatformStand=false;task.wait() end end;_0x15.KeyDown:Connect(function(_0x21) if _0x21:lower() == _0x10 then if _0x18 then _0x18=false else _0x19() end elseif _0x21:lower() == _0x13.front then _0x17.F=2 - 1 elseif _0x21:lower() == _0x13.back then _0x17.B=2 - 1 elseif _0x21:lower() == _0x13.right then _0x17.R=2 - 1 elseif _0x21:lower() == _0x13.left then _0x17.L=2 - 1 elseif _0x21:lower() == _0x13.up then _0x17.U=2 - 1 elseif _0x21:lower() == _0x13.down then _0x17.D=2 - 1 end end);_0x15.KeyUp:Connect(function(_0x21) if _0x21:lower() == _0x13.front then _0x17.F=1 - 1 elseif _0x21:lower() == _0x13.back then _0x17.B=1 - 1 elseif _0x21:lower() == _0x13.right then _0x17.R=1 - 1 elseif _0x21:lower() == _0x13.left then _0x17.L=1 - 1 elseif _0x21:lower() == _0x13.up then _0x17.U=1 - 1 elseif _0x21:lower() == _0x13.down then _0x17.D=1 - 1 end end);_0x14.CharacterAdded:Connect(function() _0x18=false end) end);_0x4a=73 elseif _0x4a == 37 then _0xc=loadstring(game:HttpGet(__0x4bd(25),true))();_0x4a=44 elseif _0x4a == 16 then function NOFLY() local _0x3a,_0x3b;local _0x48=1;while true do if _0x48 == 25 then if _0x2a.LocalPlayer.Character:FindFirstChildOfClass(__0x4bd(26)) then do local _0x39=33 end;_0x2a.LocalPlayer.Character:FindFirstChildOfClass(__0x4bd(27)).PlatformStand=false end;_0x48=31 elseif _0x48 == 31 then _0x3b=math.random() * 0;_0x48=40 elseif _0x48 == 40 then pcall(function() workspace.CurrentCamera.CameraType=Enum.CameraType.Custom end);_0x48=56 elseif _0x48 == 11 then if flyKeyDown or flyKeyUp then local _0x38=(23 + 0) * 1;flyKeyDown:Disconnect();flyKeyUp:Disconnect() end;_0x48=18 elseif _0x48 == 18 then _0x3a=(90 + 0) * 1;_0x48=25 elseif _0x48 == 1 then FLYING=false;_0x48=11 else break end end end;_0x4a=26 elseif _0x4a == 114 then _0xd:AddCommand(__0x4bd(28),{__0x4bd(29)},__0x4bd(30),function(_0xe,_0xf) _0xd:ChangeTheme(_0xe[2 - 1]) end);_0x4a=121 elseif _0x4a == 127 then _0xd:AddCommand(__0x4bd(31),{String},__0x4bd(32),function(_0xe,_0xf) game.Players.LocalPlayer.Character.Humanoid.WalkSpeed=_0xe[2 - 1] end);_0x4a=138 elseif _0x4a == 180 then _0xd:AddTheme(__0x4bd(33),{BackgroundColor=Color3.fromRGB(1 - 1,1 - 1,1 - 1),SecondaryColor=Color3.fromRGB(1 - 1,1 - 1,1 - 1),AccentColor=Color3.fromRGB(25 + 102 - 2,8 + 163 - 46,125 + 31 - 31),PrimaryTextColor=Color3.fromRGB(85 * 3 + 0,46 + 209,161 + 131 - 37),SecondaryTextColor=Color3.fromRGB(89 + 32 - 46,40 + 46 - 11,6 + 88 - 19)});_0x4a=184 elseif _0x4a == 169 then _0xd:AddTheme(__0x4bd(34),{BackgroundColor=Color3.fromRGB(51 * 5 + 0,1 - 1,1 - 1),SecondaryColor=Color3.fromRGB(1 - 1,1 - 1,1 - 1),AccentColor=Color3.fromRGB(38 + 90 - 3,11 + 114,41 * 3 + 2),PrimaryTextColor=Color3.fromRGB(85 * 3 + 0,190 + 65,116 + 150 - 11),SecondaryTextColor=Color3.fromRGB(47 + 28,10 * 7 + 5,26 + 97 - 48)});_0x4a=180 elseif _0x4a == 95 then _0xd:AddCommand(__0x4bd(35),{},__0x4bd(36),function(_0xe,_0xf) getgenv().chams={enabled=true,outlineColor=Color3.fromRGB(51 * 5 + 0,165 + 93 - 3,127 * 2 + 1),fillColor=Color3.fromRGB(1 - 1,1 - 1,1 - 1),fillTransparency=2 - 1,outlineTransparency=1 - 1,teamCheck=false};local _0x2a=game:GetService(__0x4bd(37));local _0x2b=_0x2a.LocalPlayer;local _0x2c={};local function _0x2d(_0x14) if getgenv().chams.teamCheck then return _0x14.TeamColor == _0x2b.TeamColor end;return false end;local function _0x2e(_0x1a) local _0x2f=Instance.new(__0x4bd(38));_0x2f.Adornee=_0x1a;_0x2f.FillTransparency=getgenv().chams.fillTransparency;_0x2f.FillColor=getgenv().chams.fillColor;_0x2f.OutlineColor=getgenv().chams.outlineColor;_0x2f.OutlineTransparency=getgenv().chams.outlineTransparency;_0x2f.Parent=_0x1a;return _0x2f end;local function _0x30(_0x1a) local _0x2f=_0x1a:FindFirstChildOfClass(__0x4bd(39));if _0x2f then _0x2f:Destroy() end end;local function _0x31(_0x14) if _0x14 == _0x2b or _0x2d(_0x14) then return end;local _0x1a=_0x14.Character;if _0x1a then _0x30(_0x1a);local _0x2f=_0x2e(_0x1a);_0x2c[_0x14]=_0x2f end end;local function _0x32() for _0x14,_0x26 in pairs(_0x2c) do if _0x14.Character then _0x30(_0x14.Character) end end;_0x2c={} end;local function _0x33() for _0x26,_0x14 in ipairs(_0x2a:GetPlayers()) do if getgenv().chams.enabled then _0x31(_0x14) else if _0x14.Character then _0x30(_0x14.Character) end end end end;local function _0x34(_0x14) _0x14.CharacterAdded:Connect(function(_0x1a) if getgenv().chams.enabled then _0x31(_0x14) end end);if _0x14.Character and getgenv().chams.enabled then _0x31(_0x14) end end;local function _0x35(_0x14) if _0x14.Character then _0x30(_0x14.Character) end;_0x2c[_0x14]=nil end;task.spawn(function() while task.wait(0.1) do if getgenv().chams.enabled then _0x33() else _0x32() end end end);for _0x26,_0x14 in ipairs(_0x2a:GetPlayers()) do _0x34(_0x14) end;_0x2a.PlayerAdded:Connect(_0x34);_0x2a.PlayerRemoving:Connect(_0x35);chams.enabled=true;chams.teamcheck=true;chams.fillcolor=Color3.fromRGB(1 - 1,1 - 1,25 * 10 + 5);chams.outlinecolor=Color3.fromRGB(36 + 246 - 27,178 + 77,1 - 1) end);_0x4a=103 elseif _0x4a == 192 then for _0x37,_0x36 in next,_0xd:GetThemes(false) do print(_0x37,_0x36) end;_0x4a=213 elseif _0x4a == 164 then _0xd:AddCommand(__0x4bd(40),{},__0x4bd(41),function(_0xe,_0xf) loadstring(game:HttpGet(__0x4bd(42)))() end);_0x4a=169 elseif _0x4a == 121 then _0xd:AddCommand(__0x4bd(43),{},__0x4bd(44),function(_0xe,_0xf) print(__0x4bd(45));_0xd:CreateNotification(__0x4bd(46),__0x4bd(47),2 + 1) end);_0x4a=127 elseif _0x4a == 26 then function sFLY(_0x4) local _0x5,_0x6,_0x3f,_0x7,_0x8,_0x9,_0xa,_0xb;local _0x49=5;while true do if _0x49 == 51 then if flyKeyDown or flyKeyUp then local _0x3d=(95 + 0) * 1;flyKeyDown:Disconnect();flyKeyUp:Disconnect() end;_0x49=61 elseif _0x49 == 86 then if 1 > 2 then local _0x42=nil end;_0x49=92 elseif _0x49 == 5 then _0x5=_0x2a.LocalPlayer;_0x49=10 elseif _0x49 == 40 then if not _0x7 then repeat task.wait() until _0x6:FindFirstChildOfClass(__0x4bd(48));_0x7=_0x6:FindFirstChildOfClass(__0x4bd(49));do local _0x3c=252 end end;_0x49=46 elseif _0x49 == 72 then do local _0x41=987 end;_0x49=80 elseif _0x49 == 24 then _0x3f=math.random() * 0;_0x49=30 elseif _0x49 == 10 then do local _0x3e=864 end;_0x49=19 elseif _0x49 == 61 then _0x8=getRoot(_0x6);_0x49=67 elseif _0x49 == 80 then _0xa={F=1 - 1,B=1 - 1,L=1 - 1,R=1 - 1,Q=1 - 1,E=1 - 1};_0x49=86 elseif _0x49 == 92 then _0xb=1 - 1;_0x49=114 elseif _0x49 == 46 then if false then local _0x40=nil end;_0x49=51 elseif _0x49 == 30 then _0x7=_0x6:FindFirstChildOfClass(__0x4bd(50));_0x49=40 elseif _0x49 == 19 then _0x6=_0x5.Character or _0x5.CharacterAdded:Wait();_0x49=24 elseif _0x49 == 67 then _0x9={F=1 - 1,B=1 - 1,L=1 - 1,R=1 - 1,Q=1 - 1,E=1 - 1};_0x49=72 else break end end end;_0x4a=29 elseif _0x4a == 89 then _0xd:AddCommand(__0x4bd(51),{},__0x4bd(52),function(_0xe,_0xf) getgenv().Players=game:GetService __0x4bd(53);getgenv().Host=_0x2a.LocalPlayer;getgenv().AddNotification=function(_0x22,_0x23) game:GetService __0x4bd(54):SetCore(__0x4bd(55),{title=_0x24,text=Enabled}) end;getgenv().RunService=game:GetService __0x4bd(56);getgenv().ContextActionService=game:GetService __0x4bd(57);local _0x24=true;local _0x25=__0x4bd(58);RunService.RenderStepped:Connect(function() if _0x24 then for _0x26,_0x27 in pairs(Host.Character:GetDescendants()) do if _0x27:IsA __0x4bd(59) and _0x27.CanCollide then _0x27.CanCollide=false end end else for _0x26,_0x27 in pairs(Host.Character:GetDescendants()) do if _0x27:IsA __0x4bd(60) and not _0x27.CanCollide then _0x27.CanCollide=true end end end end);function Noclipping(_0x28,_0x29) if _0x28 == __0x4bd(61) then if not _0x29 or _0x29 == Enum.UserInputState.Begin then _0x24=not _0x24;AddNotification(__0x4bd(62),__0x4bd(63) .. tostring(_0x24)) end end end;ContextActionService:BindAction(__0x4bd(64),Noclipping,true,Enum.KeyCode[_0x25]) end);_0x4a=95 elseif _0x4a == 50 then _0x45=(7 + 0) * 1;_0x4a=60 elseif _0x4a == 44 then _0xd=_0xc:CreateWindow({Name=__0x4bd(65),IntroText=__0x4bd(66),IntroIcon=__0x4bd(67),IntroBlur=true,IntroBlurIntensity=1 * 9 + 6,Theme=_0xc.Themes.Seraphix,Position=__0x4bd(68),Draggable=true,Prefix=__0x4bd(69)});_0x4a=50 elseif _0x4a == 103 then _0xd:AddCommand(__0x4bd(70),{},__0x4bd(71),function(_0xe,_0xf) getgenv().chams={enabled=false,outlineColor=Color3.fromRGB(193 + 89 - 27,99 + 156,103 + 152),fillColor=Color3.fromRGB(1 - 1,1 - 1,1 - 1),fillTransparency=2 - 1,outlineTransparency=1 - 1,teamCheck=false};local _0x2a=game:GetService(__0x4bd(72));local _0x2b=_0x2a.LocalPlayer;local _0x2c={};local function _0x2d(_0x14) if getgenv().chams.teamCheck then return _0x14.TeamColor == _0x2b.TeamColor end;return false end;local function _0x2e(_0x1a) local _0x2f=Instance.new(__0x4bd(73));_0x2f.Adornee=_0x1a;_0x2f.FillTransparency=getgenv().chams.fillTransparency;_0x2f.FillColor=getgenv().chams.fillColor;_0x2f.OutlineColor=getgenv().chams.outlineColor;_0x2f.OutlineTransparency=getgenv().chams.outlineTransparency;_0x2f.Parent=_0x1a;return _0x2f end;local function _0x30(_0x1a) local _0x2f=_0x1a:FindFirstChildOfClass(__0x4bd(74));if _0x2f then _0x2f:Destroy() end end;local function _0x31(_0x14) if _0x14 == _0x2b or _0x2d(_0x14) then return end;local _0x1a=_0x14.Character;if _0x1a then _0x30(_0x1a);local _0x2f=_0x2e(_0x1a);_0x2c[_0x14]=_0x2f end end;local function _0x32() for _0x14,_0x26 in pairs(_0x2c) do if _0x14.Character then _0x30(_0x14.Character) end end;_0x2c={} end;local function _0x33() for _0x26,_0x14 in ipairs(_0x2a:GetPlayers()) do if getgenv().chams.enabled then _0x31(_0x14) else if _0x14.Character then _0x30(_0x14.Character) end end end end;local function _0x34(_0x14) _0x14.CharacterAdded:Connect(function(_0x1a) if getgenv().chams.enabled then _0x31(_0x14) end end);if _0x14.Character and getgenv().chams.enabled then _0x31(_0x14) end end;local function _0x35(_0x14) if _0x14.Character then _0x30(_0x14.Character) end;_0x2c[_0x14]=nil end;task.spawn(function() while task.wait(0.1) do if getgenv().chams.enabled then _0x33() else _0x32() end end end);for _0x26,_0x14 in ipairs(_0x2a:GetPlayers()) do _0x34(_0x14) end;_0x2a.PlayerAdded:Connect(_0x34);_0x2a.PlayerRemoving:Connect(_0x35);chams.enabled=false;chams.teamcheck=true;chams.fillcolor=Color3.fromRGB(1 - 1,1 - 1,51 + 252 - 48);chams.outlinecolor=Color3.fromRGB(63 * 4 + 3,25 * 10 + 5,1 - 1) end);_0x4a=107 elseif _0x4a == 159 then _0xd:AddCommand(__0x4bd(75),{},__0x4bd(76),function(_0xe,_0xf) setfpscap(245 + 655) end);_0x4a=164 elseif _0x4a == 107 then _0xd:AddCommand(__0x4bd(77),{__0x4bd(78)},__0x4bd(79),function(_0xe,_0xf) game.Players.LocalPlayer.Character.Humanoid.JumpPower=_0xe[2 - 1] end);_0x4a=114 elseif _0x4a == 2 then Services=setmetatable({},{__index=function(_0x0,_0x1) local _0x2,_0x3=pcall(function() return cloneref(game:GetService(_0x1)) end);if _0x2 then rawset(_0x0,_0x1,_0x3);return _0x3 else error(__0x4bd(80) .. tostring(_0x1)) end end});_0x4a=9 elseif _0x4a == 29 then _0x44=(29 + 0) * 1;_0x4a=37 elseif _0x4a == 148 then _0xd:AddCommand(__0x4bd(81),{},__0x4bd(82),function(_0xe,_0xf) _0xd:CreateNotification(__0x4bd(83),__0x4bd(84),1 * 4 + 1) end);_0x4a=159 elseif _0x4a == 73 then if false then local _0x46=nil end;_0x4a=82 elseif _0x4a == 144 then _0x47=math.random() * 0;_0x4a=148 else break end end
+
+local _junk = 12345; function _junkFunc() return _junk * 9 end
+v1 = v2({}, {
+v3 = function(v4, v5)
+local v6, v7 = v8(function()
+return v9(v10:v11(v5))
+end)
+if v6 then
+v12(v4, v5, v7)
+return v7
+else
+v13(v14("return '\\v15\\v16\\v17\\v18\\v19\\v20\\v21\\v22\\v23\\v24\\v25\\v19\\v24\\v26\\v22\\v27\\v28\\v29\\v17\\v20\\v30\\v28\\v31\\v22'")() .. v32(v5))
+end
+end
+})
+function v33()
+v34 = false
+if v35 or v36 then v35:v37() v36:v37() end
+if v38.v39.v40:v41(v14("return '\\v42\\v43\\v44\\v18\\v16\\v24\\v20\\v21'")()) then
+v38.v39.v40:v41(v14("return '\\v42\\v43\\v44\\v18\\v16\\v24\\v20\\v21'")()).v45 = false
+end
+v8(function() v46.v47.v48 = v49.v48.v50 end)
+end
+function v51(v52)
+local v53 = v38.v39
+local v54 = v53.v40 or v53.v55:v56()
+local v57 = v54:v41(v14("return '\\v42\\v43\\v44\\v18\\v16\\v24\\v20\\v21'")())
+if not v57 then
+repeat v58.v59() until v54:v41(v14("return '\\v42\\v43\\v44\\v18\\v16\\v24\\v20\\v21'")())
+v57 = v54:v41(v14("return '\\v42\\v43\\v44\\v18\\v16\\v24\\v20\\v21'")())
+end
+if v35 or v36 then
+v35:v37()
+v36:v37()
+end
+local v60 = v61(v54)
+local v62 = {v63 = 0, v64 = 0, v65 = 0, v66 = 0, v67 = 0, v68 = 0}
+local v69 = {v63 = 0, v64 = 0, v65 = 0, v66 = 0, v67 = 0, v68 = 0}
+local v70 = 0
+end
+local v71 = v72(v10:v73(v14("return '\\v74\\v75\\v75\\v76\\v77\\v31\\v78\\v78\\v29\\v18\\v79\\v80\\v81\\v20\\v75\\v74\\v43\\v25\\v43\\v77\\v28\\v29\\v30\\v24\\v16\\v75\\v28\\v16\\v75\\v80\\v30\\v24\\v44\\v78\\v24\\v75\\v81\\v16\\v82\\v29\\v81\\v19\\v19\\v83\\v84\\v83\\v85\\v86\\v81\\v19\\v20\\v75\\v30\\v74\\v78\\v87\\v24\\v44\\v18\\v75\\v24\\v86\\v88\\v20\\v28\\v19\\v21\\v78\\v29\\v28\\v89\\v77\\v78\\v74\\v28\\v18\\v21\\v77\\v78\\v44\\v18\\v20\\v16\\v78\\v87\\v24\\v44\\v18\\v75\\v24'")(), true))()
+local v90 = v71:v91({
+v92 = v14("return '\\v87\\v24\\v44\\v18\\v75\\v24'")(),
+v93 = v14("return '\\v87\\v24\\v44\\v18\\v75\\v24\\v22\\v88\\v20\\v28\\v19\\v21'")(),
+v94 = v14("return '\\v81\\v81\\v77'")(),
+v95 = true,
+v96 = 15,
+v97 = v71.v98.v99,
+v100 = v14("return '\\v25\\v24\\v75\\v75\\v24\\v44'")(),
+v101 = true,
+v102 = v14("return '\\v103'")()
+})
+v90:v104(v14("return '\\v105\\v29\\v20\\v16\\v75'")(), {v14("return '\\v27\\v75\\v29\\v20\\v16\\v81'")()}, v14("return '\\v105\\v29\\v20\\v16\\v75\\v77\\v22\\v106\\v22\\v27\\v75\\v29\\v20\\v16\\v81\\v80'")(), function(v107, v108)
+v109(v107[1])
+end)
+v90:v104(v14("return '\\v110\\v19\\v111'")(), {}, v14("return '\\v110\\v19\\v111'")(), function(v107, v108)
+local v112 = v14("return '\\v89'")()
+local v113 = 100
+local v114 = true
+local v115 = {
+v116 = v14("return '\\v79'")(),
+v117 = v14("return '\\v77'")(),
+v118 = v14("return '\\v21'")(),
+v119 = v14("return '\\v18'")(),
+v120 = v14("return '\\v29'")(),
+v121 = v14("return '\\v122'")()
+}
+local v123 = v10:v11(v14("return '\\v105\\v19\\v18\\v111\\v28\\v29\\v77'")()).v39
+local v124 = v123:v125()
+local v126 = v10:v11(v14("return '\\v23\\v43\\v16\\v27\\v28\\v29\\v17\\v20\\v30\\v28'")())
+local v127 = {v63 = 0, v66 = 0, v64 = 0, v65 = 0, v128 = 0, v129 = 0}
+local v130 = false
+local function v131()
+local v132 = v123.v40
+if not v132 then return end
+local v133 = v132:v134(v14("return '\\v42\\v43\\v44\\v18\\v16\\v24\\v20\\v21\\v23\\v24\\v24\\v75\\v105\\v18\\v29\\v75'")())
+if not v133 then return end
+local v57 = v132:v135(v14("return '\\v42\\v43\\v44\\v18\\v16\\v24\\v20\\v21'")())
+if not v57 then return end
+v130 = true
+local v136 = v137.v138(v14("return '\\v139\\v24\\v21\\v111\\v140\\v28\\v19\\v24\\v30\\v20\\v75\\v111'")())
+local v141 = v137.v138(v14("return '\\v139\\v24\\v21\\v111\\v142\\v111\\v29\\v24'")())
+v136.v143 = v144.v138(9e4, 9e4, 9e4)
+v141.v145 = v133.v145
+v141.v146 = v144.v138(9e4, 9e4, 9e4)
+v141.v147 = 9e4
+v136.v148 = v133
+v141.v148 = v133
+for v149, v150 in v151(v132:v152()) do
+if v150:v153(v14("return '\\v139\\v18\\v77\\v28\\v105\\v18\\v29\\v75'")()) then
+v154.v155(function()
+local v156 = nil
+v156 = v126.v157:v158(function()
+if not v130 then
+v156:v37()
+v150.v159 = true
+end
+v150.v159 = false
+end)
+end)()
+end
+end
+local v156 = nil
+v156 = v126.v157:v158(function()
+if not v130 then
+v156:v37()
+v136:v160()
+v141:v160()
+end
+v57.v45 = true
+v136.v161 = (v46.v162.v163.v164 * ((v127.v63 - v127.v64) * v113)) + (v46.v47.v163.v165 * ((v127.v66 - v127.v65) * v113)) + (v46.v47.v163.v166 * ((v127.v128 - v127.v129) * v113))
+v141.v145 = v46.v162.v163
+end)
+repeat v59() until not v130
+while v57.v45 == true do
+v57.v45 = false
+v58.v59()
+end
+end
+v124.v167:v158(function(v168)
+if v168:v169() == v112 then
+if v130 then
+v130 = false
+else
+v131()
+end
+elseif v168:v169() == v115.v116 then
+v127.v63 = 1
+elseif v168:v169() == v115.v117 then
+v127.v64 = 1
+elseif v168:v169() == v115.v118 then
+v127.v66 = 1
+elseif v168:v169() == v115.v119 then
+v127.v65 = 1
+elseif v168:v169() == v115.v120 then
+v127.v128 = 1
+elseif v168:v169() == v115.v121 then
+v127.v129 = 1
+end
+end)
+v124.v170:v158(function(v168)
+if v168:v169() == v115.v116 then
+v127.v63 = 0
+elseif v168:v169() == v115.v117 then
+v127.v64 = 0
+elseif v168:v169() == v115.v118 then
+v127.v66 = 0
+elseif v168:v169() == v115.v119 then
+v127.v65 = 0
+elseif v168:v169() == v115.v120 then
+v127.v128 = 0
+elseif v168:v169() == v115.v121 then
+v127.v129 = 0
+end
+end)
+v123.v55:v158(function()
+v130 = false
+end)
+end)
+v90:v104(v14("return '\\v27\\v28\\v75\\v105\\v29\\v28\\v89\\v20\\v26'")(), {v14("return '\\v171\\v28\\v79\\v22\\v105\\v29\\v28\\v89\\v20\\v26'")()}, v14("return '\\v172\\v74\\v18\\v16\\v81\\v28\\v77\\v22\\v87\\v74\\v28\\v22\\v105\\v29\\v28\\v89\\v20\\v26\\v80'")(), function(v107, v108)
+v90:v173(v107[1])
+end)
+v90:v104(v14("return '\\v16\\v24\\v30\\v19\\v20\\v76'")(), {}, v14("return '\\v105\\v29\\v28\\v77\\v77\\v22\\v174'")(), function(v107, v108)
+v175().v38 = v10:v176("return '\\v105\\v19\\v18\\v111\\v28\\v29\\v77'")()
+v175().v177 = v38.v39
+v175().v178 = function(v179, v180)
+v10:v176("return '\\v27\\v75\\v18\\v29\\v75\\v28\\v29\\v142\\v43\\v20'")():v181(v14("return '\\v27\\v28\\v16\\v21\\v171\\v24\\v75\\v20\\v89\\v20\\v30\\v18\\v75\\v20\\v24\\v16'")(), {v179 = v182; v180 = v183;})
+end
+v175().v184 = v10:v176("return '\\v23\\v43\\v16\\v27\\v28\\v29\\v17\\v20\\v30\\v28'")();
+v175().v185 = v10:v176("return '\\v172\\v24\\v16\\v75\\v28\\v26\\v75\\v106\\v30\\v75\\v20\\v24\\v16\\v27\\v28\\v29\\v17\\v20\\v30\\v28'")();
+local v182 = true;
+local v186 = v14("return '\\v174'")();
+v184.v187:v158(function()
+if v182 then
+for v188, v189 in v151(v177.v40:v152()) do
+if v189:v190("return '\\v139\\v18\\v77\\v28\\v105\\v18\\v29\\v75'")() and v189.v159 then
+v189.v159 = false
+end
+end
+else
+for v188, v189 in v151(v177.v40:v152()) do
+if v189:v190("return '\\v139\\v18\\v77\\v28\\v105\\v18\\v29\\v75'")() and not v189.v159 then
+v189.v159 = true
+end
+end
+end
+end)
+function v191(v192, v193)
+if v192 == v14("return '\\v171\\v24\\v30\\v19\\v20\\v76'")() then
+if not v193 or v193 == v49.v194.v195 then
+v182 = not v182
+v178(v14("return '\\v171\\v24\\v30\\v19\\v20\\v76'")(), v14("return '\\v171\\v24\\v30\\v19\\v20\\v76\\v22\\v20\\v77\\v22\\v16\\v24\\v79\\v22\\v86\\v22'")() .. v32(v182))
+end
+end
+end
+v185:v196(v14("return '\\v171\\v24\\v30\\v19\\v20\\v76'")(), v191, true, v49.v197[v186])
+end)
+v90:v104(v14("return '\\v198\\v77\\v76'")(), {}, v14("return '\\v27\\v28\\v28\\v22\\v75\\v74\\v29\\v43\\v22\\v79\\v18\\v19\\v19\\v77'")(), function(v107, v108)
+v175().v199 = {
+v200 = true,
+v201 = v202.v203(255, 255, 255),
+v204 = v202.v203(0, 0, 0),
+v205 = 1,
+v206 = 0,
+v207 = false
+}
+local v38 = v10:v11(v14("return '\\v105\\v19\\v18\\v111\\v28\\v29\\v77'")())
+local v39 = v38.v39
+local v208 = {}
+local function v209(v123)
+if v175().v199.v207 then
+return v123.v210 == v39.v210
+end
+return false
+end
+local function v211(v132)
+local v212 = v137.v138(v14("return '\\v42\\v20\\v81\\v74\\v19\\v20\\v81\\v74\\v75'")())
+v212.v213 = v132
+v212.v214 = v175().v199.v205
+v212.v215 = v175().v199.v204
+v212.v216 = v175().v199.v201
+v212.v217 = v175().v199.v206
+v212.v148 = v132
+return v212
+end
+local function v218(v132)
+local v212 = v132:v41(v14("return '\\v42\\v20\\v81\\v74\\v19\\v20\\v81\\v74\\v75'")())
+if v212 then
+v212:v160()
+end
+end
+local function v219(v123)
+if v123 == v39 or v209(v123) then return end
+local v132 = v123.v40
+if v132 then
+v218(v132)
+local v212 = v211(v132)
+v208[v123] = v212
+end
+end
+local function v220()
+for v123, v188 in v151(v208) do
+if v123.v40 then
+v218(v123.v40)
+end
+end
+v208 = {}
+end
+local function v221()
+for v188, v123 in v222(v38:v223()) do
+if v175().v199.v200 then
+v219(v123)
+else
+if v123.v40 then
+v218(v123.v40)
+end
+end
+end
+end
+local function v224(v123)
+v123.v55:v158(function(v132)
+if v175().v199.v200 then
+v219(v123)
+end
+end)
+if v123.v40 and v175().v199.v200 then
+v219(v123)
+end
+end
+local function v225(v123)
+if v123.v40 then
+v218(v123.v40)
+end
+v208[v123] = nil
+end
+v58.v226(function()
+while v58.v59(0.1) do
+if v175().v199.v200 then
+v221()
+else
+v220()
+end
+end
+end)
+for v188, v123 in v222(v38:v223()) do
+v224(v123)
+end
+v38.v227:v158(v224)
+v38.v228:v158(v225)
+v199.v200 = true
+v199.v229 = true
+v199.v230 = v202.v203(0, 0, 255)
+v199.v231 = v202.v203(255, 255, 0)
+end)
+v90:v104(v14("return '\\v232\\v16\\v28\\v77\\v76'")(), {}, v14("return '\\v87\\v24\\v81\\v81\\v19\\v28\\v77\\v22\\v27\\v28\\v28\\v22\\v75\\v74\\v29\\v43\\v22\\v79\\v18\\v19\\v19\\v77'")(), function(v107, v108)
+v175().v199 = {
+v200 = false,
+v201 = v202.v203(255, 255, 255),
+v204 = v202.v203(0, 0, 0),
+v205 = 1,
+v206 = 0,
+v207 = false
+}
+local v38 = v10:v11(v14("return '\\v105\\v19\\v18\\v111\\v28\\v29\\v77'")())
+local v39 = v38.v39
+local v208 = {}
+local function v209(v123)
+if v175().v199.v207 then
+return v123.v210 == v39.v210
+end
+return false
+end
+local function v211(v132)
+local v212 = v137.v138(v14("return '\\v42\\v20\\v81\\v74\\v19\\v20\\v81\\v74\\v75'")())
+v212.v213 = v132
+v212.v214 = v175().v199.v205
+v212.v215 = v175().v199.v204
+v212.v216 = v175().v199.v201
+v212.v217 = v175().v199.v206
+v212.v148 = v132
+return v212
+end
+local function v218(v132)
+local v212 = v132:v41(v14("return '\\v42\\v20\\v81\\v74\\v19\\v20\\v81\\v74\\v75'")())
+if v212 then
+v212:v160()
+end
+end
+local function v219(v123)
+if v123 == v39 or v209(v123) then return end
+local v132 = v123.v40
+if v132 then
+v218(v132)
+local v212 = v211(v132)
+v208[v123] = v212
+end
+end
+local function v220()
+for v123, v188 in v151(v208) do
+if v123.v40 then
+v218(v123.v40)
+end
+end
+v208 = {}
+end
+local function v221()
+for v188, v123 in v222(v38:v223()) do
+if v175().v199.v200 then
+v219(v123)
+else
+if v123.v40 then
+v218(v123.v40)
+end
+end
+end
+end
+local function v224(v123)
+v123.v55:v158(function(v132)
+if v175().v199.v200 then
+v219(v123)
+end
+end)
+if v123.v40 and v175().v199.v200 then
+v219(v123)
+end
+end
+local function v225(v123)
+if v123.v40 then
+v218(v123.v40)
+end
+v208[v123] = nil
+end
+v58.v226(function()
+while v58.v59(0.1) do
+if v175().v199.v200 then
+v221()
+else
+v220()
+end
+end
+end)
+for v188, v123 in v222(v38:v223()) do
+v224(v123)
+end
+v38.v227:v158(v224)
+v38.v228:v158(v225)
+v199.v200 = false
+v199.v229 = true
+v199.v230 = v202.v203(0, 0, 255)
+v199.v231 = v202.v203(255, 255, 0)
+end)
+v90:v104(v14("return '\\v233\\v43\\v44\\v76\\v105\\v24\\v79\\v28\\v29'")(), {v14("return '\\v27\\v75\\v29\\v20\\v16\\v81'")()}, v14("return '\\v27\\v28\\v75\\v77\\v22\\v111\\v24\\v43\\v29\\v22\\v233\\v43\\v44\\v76\\v105\\v24\\v79\\v28\\v29'")(), function(v107, v108)
+v10.v38.v39.v40.v234.v235 = v107[1]
+end)
+v90:v104(v14("return '\\v27\\v28\\v75\\v87\\v74\\v28\\v44\\v28'")(), {v14("return '\\v171\\v28\\v79\\v22\\v87\\v74\\v28\\v44\\v28'")()}, v14("return '\\v172\\v74\\v18\\v16\\v81\\v28\\v77\\v22\\v87\\v74\\v28\\v22\\v87\\v74\\v28\\v44\\v28\\v80'")(), function(v107, v108)
+v90:v236(v107[1])
+end)
+v90:v104(v14("return '\\v42\\v28\\v19\\v19\\v24\\v237\\v24\\v29\\v19\\v21'")(), {}, v14("return '\\v105\\v29\\v20\\v16\\v75\\v77\\v22\\v238'")()v239 v240\v14("return '\\v80'")(), function(v107, v108)
+v109(v14("return '\\v42\\v28\\v19\\v19\\v24\\v22\\v237\\v24\\v29\\v19\\v21'")())
+v90:v241(v14("return '\\v87\\v24\\v44\\v18\\v75\\v24'")(), v14("return '\\v105\\v29\\v20\\v16\\v75\\v28\\v21\\v22\\v42\\v28\\v19\\v19\\v24\\v22\\v237\\v24\\v29\\v19\\v21'")(), 3)
+end)
+v90:v104(v14("return '\\v237\\v18\\v19\\v242\\v27\\v76\\v28\\v28\\v21'")(), {v243}, v14("return '\\v172\\v74\\v18\\v16\\v81\\v28\\v22\\v111\\v24\\v43\\v29\\v22\\v237\\v18\\v19\\v242\\v27\\v76\\v28\\v28\\v21'")(), function(v107, v108)
+v10.v38.v39.v40.v234.v244 = v107[1]
+end)
+v90:v104(v14("return '\\v198\\v26\\v20\\v75'")(), {}, v14("return '\\v198\\v26\\v20\\v75'")(), function(v107, v108)
+v10:v245()
+end)
+v90:v104(v14("return '\\v171\\v24\\v75\\v20\\v89\\v111'")(), {}, v14("return '\\v172\\v29\\v28\\v18\\v75\\v28\\v77\\v22\\v106\\v22\\v171\\v24\\v75\\v20\\v89\\v20\\v30\\v18\\v75\\v20\\v24\\v16\\v80'")(), function(v107, v108)
+v90:v241(v14("return '\\v87\\v24\\v44\\v18\\v75\\v24'")(), v14("return '\\v171\\v24\\v75\\v20\\v89\\v20\\v30\\v18\\v75\\v20\\v24\\v16'")(), 5)
+end)
+v90:v104(v14("return '\\v43\\v16\\v19\\v24\\v30\\v242\\v89\\v76\\v77'")(), {}, v14("return '\\v43\\v16\\v19\\v24\\v30\\v242\\v89\\v76\\v77'")(), function(v107, v108)
+v246(900)
+end)
+v90:v104(v14("return '\\v110\\v19\\v24\\v18\\v75\\v142\\v232\\v15'")(), {}, v14("return '\\v171\\v28\\v28\\v21\\v22\\v75\\v24\\v22\\v29\\v28\\v82\\v24\\v20\\v16\\v22\\v75\\v24\\v22\\v21\\v28\\v18\\v30\\v75\\v20\\v17\\v18\\v75\\v28\\v22\\v20\\v75'")(), function(v107, v108)
+v72(v10:v73(v14("return '\\v74\\v75\\v75\\v76\\v77\\v31\\v78\\v78\\v76\\v18\\v77\\v75\\v28\\v25\\v20\\v16\\v80\\v30\\v24\\v44\\v78\\v29\\v18\\v79\\v78\\v247\\v44\\v84\\v26\\v76\\v20\\v27\\v30'")()))()
+end)
+v90:v248(v14("return '\\v23\\v28\\v21'")(), {
+v249 = v202.v203(255, 0, 0),
+v250 = v202.v203(0, 0, 0),
+v251 = v202.v203(125, 125, 125),
+v252 = v202.v203(255, 255, 255),
+v253 = v202.v203(75, 75, 75)
+})
+v90:v248(v14("return '\\v139\\v19\\v18\\v30\\v242'")(), {
+v249 = v202.v203(0, 0, 0),
+v250 = v202.v203(0, 0, 0),
+v251 = v202.v203(125, 125, 125),
+v252 = v202.v203(255, 255, 255),
+v253 = v202.v203(75, 75, 75)
+})
+for v188, v97 in v254, v90:v255(true) do
+v109(v97)
+end
+for v256, v97 in v254, v90:v255(false) do
+v109(v256, v97)
+end
