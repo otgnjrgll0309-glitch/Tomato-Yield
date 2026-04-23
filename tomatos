@@ -1,0 +1,515 @@
+Services = setmetatable({}, {
+    __index = function(self, name)
+        local success, cache = pcall(function()
+            return cloneref(game:GetService(name))
+        end)
+        if success then
+            rawset(self, name, cache)
+            return cache
+        else
+            error("Invalid Roblox Service: " .. tostring(name))
+        end
+    end
+})
+function NOFLY()
+	FLYING = false
+	if flyKeyDown or flyKeyUp then flyKeyDown:Disconnect() flyKeyUp:Disconnect() end
+	if Players.LocalPlayer.Character:FindFirstChildOfClass('Humanoid') then
+		Players.LocalPlayer.Character:FindFirstChildOfClass('Humanoid').PlatformStand = false
+	end
+	pcall(function() workspace.CurrentCamera.CameraType = Enum.CameraType.Custom end)
+end
+function sFLY(vfly)
+	local plr = Players.LocalPlayer
+	local char = plr.Character or plr.CharacterAdded:Wait()
+	local humanoid = char:FindFirstChildOfClass("Humanoid")
+	if not humanoid then
+		repeat task.wait() until char:FindFirstChildOfClass("Humanoid")
+		humanoid = char:FindFirstChildOfClass("Humanoid")
+	end
+
+	if flyKeyDown or flyKeyUp then
+		flyKeyDown:Disconnect()
+		flyKeyUp:Disconnect()
+	end
+
+	local T = getRoot(char)
+	local CONTROL = {F = 0, B = 0, L = 0, R = 0, Q = 0, E = 0}
+	local lCONTROL = {F = 0, B = 0, L = 0, R = 0, Q = 0, E = 0}
+	local SPEED = 0
+    end
+
+local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/otgnjrgll0309-glitch/Tomato-Yield/refs/heads/main/Tomato', true))()
+
+local Window = Library:CreateWindow({
+    Name = 'Tomato',
+    IntroText = 'Tomato Yield',
+    IntroIcon = 'ggs',
+    IntroBlur = true,
+    IntroBlurIntensity = 15,
+    Theme = Library.Themes.Seraphix,
+    Position = 'bottom',
+    Draggable = true,
+    Prefix = ';'
+})
+
+-- // Commands
+Window:AddCommand('Print', {'String'}, 'Prints A String.', function(Arguments, Speaker)
+    print(Arguments[1])
+end)
+
+Window:AddCommand('Fly', {}, 'Fly', function(Arguments, Speaker)
+--- Configs
+local flybutton = "f"
+local flyspeed = 100
+local noclip = true
+local controls = {
+	front = "w",
+	back = "s",
+	right = "d",
+	left = "a",
+	up = "r",
+	down = "q"
+}
+-- Configs
+
+local player = game:GetService("Players").LocalPlayer
+local mouse = player:GetMouse()
+local runservice = game:GetService("RunService")
+
+local flycontrol = {F = 0, R = 0, B = 0, L = 0, U = 0, D = 0}
+local flying = false
+
+local function fly()
+	local character = player.Character
+	if not character then return end
+	local hrp = character:FindFirstChild("HumanoidRootPart")
+	if not hrp then return end
+	local humanoid = character:FindFirstChildWhichIsA("Humanoid")
+	if not humanoid then return end
+	
+	flying = true
+	
+	local bv = Instance.new("BodyVelocity")
+	local bg = Instance.new("BodyGyro")
+	bv.MaxForce = Vector3.new(9e4, 9e4, 9e4)
+	bg.CFrame = hrp.CFrame
+	bg.MaxTorque = Vector3.new(9e4, 9e4, 9e4)
+	bg.P = 9e4
+	bv.Parent = hrp
+	bg.Parent = hrp
+	
+	for i, child in pairs(character:GetDescendants()) do
+		if child:IsA("BasePart") then
+			coroutine.wrap(function()
+				local con = nil
+				con = runservice.Stepped:Connect(function()
+					if not flying then
+						con:Disconnect()
+						child.CanCollide = true
+					end
+					child.CanCollide = false
+				end)
+			end)()
+		end
+	end
+	
+	local con = nil
+	con = runservice.Stepped:Connect(function()
+		if not flying then
+			con:Disconnect()
+			bv:Destroy()
+			bg:Destroy()
+		end
+		
+		humanoid.PlatformStand = true
+		bv.Velocity = (workspace.Camera.CoordinateFrame.LookVector * ((flycontrol.F - flycontrol.B) * flyspeed)) + (workspace.CurrentCamera.CoordinateFrame.RightVector * ((flycontrol.R - flycontrol.L) * flyspeed)) + (workspace.CurrentCamera.CoordinateFrame.UpVector * ((flycontrol.U - flycontrol.D) * flyspeed))
+		bg.CFrame = workspace.Camera.CoordinateFrame
+	end)
+	
+	repeat wait() until not flying
+	
+	while humanoid.PlatformStand == true do
+		humanoid.PlatformStand = false
+		task.wait()
+	end
+end
+
+mouse.KeyDown:Connect(function(key)
+	
+	if key:lower() == flybutton then
+		if flying then
+			flying = false
+		else
+			fly()
+		end
+	elseif key:lower() == controls.front then
+		flycontrol.F = 1
+	elseif key:lower() == controls.back then
+		flycontrol.B = 1
+	elseif key:lower() == controls.right then
+		flycontrol.R = 1
+	elseif key:lower() == controls.left then
+		flycontrol.L = 1
+	elseif key:lower() == controls.up then
+		flycontrol.U = 1
+	elseif key:lower() == controls.down then
+		flycontrol.D = 1
+	end
+end)
+
+mouse.KeyUp:Connect(function(key)
+	if key:lower() == controls.front then
+		flycontrol.F = 0
+	elseif key:lower() == controls.back then
+		flycontrol.B = 0
+	elseif key:lower() == controls.right then
+		flycontrol.R = 0
+	elseif key:lower() == controls.left then
+		flycontrol.L = 0
+	elseif key:lower() == controls.up then
+		flycontrol.U = 0
+	elseif key:lower() == controls.down then
+		flycontrol.D = 0
+	end
+end)
+
+player.CharacterAdded:Connect(function()
+	flying = false
+end)
+  end)
+Window:AddCommand('SetPrefix', {'New Prefix'}, 'Changes The Prefix.', function(Arguments, Speaker)
+    Window:ChangePrefix(Arguments[1])
+end)
+Window:AddCommand('noclip', {}, 'Press X', function(Arguments, Speaker)
+getgenv().Players = game:GetService'Players'
+getgenv().Host = Players.LocalPlayer
+getgenv().AddNotification = function(title, text)
+game:GetService'StarterGui':SetCore("SendNotification", {title = Noclip; text = Enabled;})
+end
+getgenv().RunService = game:GetService'RunService';
+getgenv().ContextActionService = game:GetService'ContextActionService';
+
+local Noclip = true;
+local NoclipKey = 'X'; -- Change your key here
+
+RunService.RenderStepped:Connect(function()
+if Noclip then
+for _, v in pairs(Host.Character:GetDescendants()) do
+if v:IsA'BasePart' and v.CanCollide then
+v.CanCollide = false
+end
+end
+else
+for _, v in pairs(Host.Character:GetDescendants()) do
+if v:IsA'BasePart' and not v.CanCollide then
+v.CanCollide = true
+end
+end
+end
+end)
+
+function Noclipping(ActionName, Properties)
+if ActionName == 'Noclip' then
+if not Properties or Properties == Enum.UserInputState.Begin then
+Noclip = not Noclip
+AddNotification('Noclip', 'Noclip is now - ' .. tostring(Noclip))
+end
+end
+end
+
+ContextActionService:BindAction('Noclip', Noclipping, true, Enum.KeyCode[NoclipKey])
+end)
+Window:AddCommand('Esp', {}, 'See thru walls', function(Arguments, Speaker)
+   getgenv().chams = {
+    enabled = true, 
+    outlineColor = Color3.fromRGB(255, 255, 255),
+    fillColor = Color3.fromRGB(0, 0, 0), 
+    fillTransparency = 1, 
+    outlineTransparency = 0, 
+    teamCheck = false 
+}
+
+
+
+
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+local activeHighlights = {} 
+
+local function isOnSameTeam(player)
+    if getgenv().chams.teamCheck then
+        return player.TeamColor == LocalPlayer.TeamColor
+    end
+    return false
+end
+
+local function createHighlight(character)
+    local highlight = Instance.new("Highlight")
+    highlight.Adornee = character
+    highlight.FillTransparency = getgenv().chams.fillTransparency
+    highlight.FillColor = getgenv().chams.fillColor
+    highlight.OutlineColor = getgenv().chams.outlineColor
+    highlight.OutlineTransparency = getgenv().chams.outlineTransparency
+    highlight.Parent = character
+    return highlight
+end
+
+local function removeHighlight(character)
+    local highlight = character:FindFirstChildOfClass("Highlight")
+    if highlight then
+        highlight:Destroy()
+    end
+end
+
+local function applyHighlight(player)
+    if player == LocalPlayer or isOnSameTeam(player) then return end
+
+    local character = player.Character
+    if character then
+        removeHighlight(character) 
+        local highlight = createHighlight(character)
+        activeHighlights[player] = highlight
+    end
+end
+
+local function removeAllHighlights()
+    for player, _ in pairs(activeHighlights) do
+        if player.Character then
+            removeHighlight(player.Character)
+        end
+    end
+    activeHighlights = {}
+end
+
+
+local function monitorPlayers()
+
+    for _, player in ipairs(Players:GetPlayers()) do
+        if getgenv().chams.enabled then
+            applyHighlight(player)
+        else
+            if player.Character then
+                removeHighlight(player.Character)
+            end
+        end
+    end
+end
+
+
+local function onPlayerAdded(player)
+    player.CharacterAdded:Connect(function(character)
+        if getgenv().chams.enabled then
+            applyHighlight(player)
+        end
+    end)
+
+    if player.Character and getgenv().chams.enabled then
+        applyHighlight(player)
+    end
+end
+
+local function onPlayerRemoving(player)
+    if player.Character then
+        removeHighlight(player.Character)
+    end
+    activeHighlights[player] = nil
+end
+
+
+task.spawn(function()
+    while task.wait(0.1) do
+        if getgenv().chams.enabled then
+            monitorPlayers()
+        else
+            removeAllHighlights()
+        end
+    end
+end)
+
+
+for _, player in ipairs(Players:GetPlayers()) do
+    onPlayerAdded(player)
+end
+
+Players.PlayerAdded:Connect(onPlayerAdded)
+Players.PlayerRemoving:Connect(onPlayerRemoving)
+chams.enabled = true
+chams.teamcheck = true
+chams.fillcolor = Color3.fromRGB(0, 0, 255)
+chams.outlinecolor = Color3.fromRGB(255, 255, 0)
+end)
+
+Window:AddCommand('Unesp', {}, 'Toggles See thru walls', function(Arguments, Speaker)
+getgenv().chams = {
+    enabled = false, 
+    outlineColor = Color3.fromRGB(255, 255, 255),
+    fillColor = Color3.fromRGB(0, 0, 0), 
+    fillTransparency = 1, 
+    outlineTransparency = 0, 
+    teamCheck = false 
+}
+
+
+
+
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+local activeHighlights = {} 
+
+local function isOnSameTeam(player)
+    if getgenv().chams.teamCheck then
+        return player.TeamColor == LocalPlayer.TeamColor
+    end
+    return false
+end
+
+local function createHighlight(character)
+    local highlight = Instance.new("Highlight")
+    highlight.Adornee = character
+    highlight.FillTransparency = getgenv().chams.fillTransparency
+    highlight.FillColor = getgenv().chams.fillColor
+    highlight.OutlineColor = getgenv().chams.outlineColor
+    highlight.OutlineTransparency = getgenv().chams.outlineTransparency
+    highlight.Parent = character
+    return highlight
+end
+
+local function removeHighlight(character)
+    local highlight = character:FindFirstChildOfClass("Highlight")
+    if highlight then
+        highlight:Destroy()
+    end
+end
+
+local function applyHighlight(player)
+    if player == LocalPlayer or isOnSameTeam(player) then return end
+
+    local character = player.Character
+    if character then
+        removeHighlight(character) 
+        local highlight = createHighlight(character)
+        activeHighlights[player] = highlight
+    end
+end
+
+local function removeAllHighlights()
+    for player, _ in pairs(activeHighlights) do
+        if player.Character then
+            removeHighlight(player.Character)
+        end
+    end
+    activeHighlights = {}
+end
+
+local function monitorPlayers()
+
+    for _, player in ipairs(Players:GetPlayers()) do
+        if getgenv().chams.enabled then
+            applyHighlight(player)
+        else
+            if player.Character then
+                removeHighlight(player.Character)
+            end
+        end
+    end
+end
+
+
+local function onPlayerAdded(player)
+    player.CharacterAdded:Connect(function(character)
+        if getgenv().chams.enabled then
+            applyHighlight(player)
+        end
+    end)
+
+    if player.Character and getgenv().chams.enabled then
+        applyHighlight(player)
+    end
+end
+
+local function onPlayerRemoving(player)
+    if player.Character then
+        removeHighlight(player.Character)
+    end
+    activeHighlights[player] = nil
+end
+
+
+task.spawn(function()
+    while task.wait(0.1) do
+        if getgenv().chams.enabled then
+            monitorPlayers()
+        else
+            removeAllHighlights()
+        end
+    end
+end)
+
+
+for _, player in ipairs(Players:GetPlayers()) do
+    onPlayerAdded(player)
+end
+
+Players.PlayerAdded:Connect(onPlayerAdded)
+Players.PlayerRemoving:Connect(onPlayerRemoving)
+chams.enabled = false
+chams.teamcheck = true
+chams.fillcolor = Color3.fromRGB(0, 0, 255)
+chams.outlinecolor = Color3.fromRGB(255, 255, 0)
+end)
+
+Window:AddCommand('JumpPower', {'String'}, 'Sets your JumpPower', function(Arguments, Speaker)
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = Arguments[1]
+end)
+
+Window:AddCommand('SetTheme', {'New Theme'}, 'Changes The Theme.', function(Arguments, Speaker)
+    Window:ChangeTheme(Arguments[1])
+end)
+
+
+Window:AddCommand('HelloWorld', {}, 'Prints \'Hello World\'.', function(Arguments, Speaker)
+    print('Hello World')
+    Window:CreateNotification('Tomato', 'Printed Hello World', 3)
+end)
+Window:AddCommand('WalkSpeed', {String}, 'Change your WalkSpeed', function(Arguments, Speaker)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Arguments[1]
+end)
+Window:AddCommand('Exit', {}, 'Exit', function(Arguments, Speaker)
+game:shutdown()
+end)
+
+Window:AddCommand('Notify', {}, 'Creates A Notification.', function(Arguments, Speaker)
+    Window:CreateNotification('Tomato', 'Notification', 5)
+end)
+Window:AddCommand('unlockfps', {}, 'unlockfps', function(Arguments, Speaker)
+    setfpscap(900)
+end)
+Window:AddCommand('FloatGUI', {}, 'Need to rejoin to deactivate it', function(Arguments, Speaker)
+
+loadstring(game:HttpGet("https://pastebin.com/raw/Dm3xpiSc"))()
+end)
+	
+-- // Functions
+Window:AddTheme('Red', {
+    BackgroundColor = Color3.fromRGB(255, 0, 0),
+    SecondaryColor = Color3.fromRGB(0, 0, 0),
+    AccentColor = Color3.fromRGB(125, 125, 125),
+    PrimaryTextColor = Color3.fromRGB(255, 255, 255),
+    SecondaryTextColor = Color3.fromRGB(75, 75, 75)
+})
+Window:AddTheme('Black', {
+    BackgroundColor = Color3.fromRGB(0, 0, 0),
+    SecondaryColor = Color3.fromRGB(0, 0, 0),
+    AccentColor = Color3.fromRGB(125, 125, 125),
+    PrimaryTextColor = Color3.fromRGB(255, 255, 255),
+    SecondaryTextColor = Color3.fromRGB(75, 75, 75)
+})
+
+for _, Theme in next, Window:GetThemes(true) do
+    print(Theme)
+end
+
+for Index, Theme in next, Window:GetThemes(false) do
+    print(Index, Theme)
+end
